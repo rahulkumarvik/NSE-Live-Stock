@@ -1,4 +1,4 @@
-# NSE Live Desktop Stock Tracker
+# NSE Live Desktop Stocks
 
 A live NSE stock price tracker for Ubuntu desktop.
 
@@ -68,3 +68,4 @@ stockengine/
 ├── start.sh          → auto startup script
 └── README.md
 ```
+
