@@ -1,0 +1,18 @@
+# Compiled files
+a.out
+stock_engine
+__pycache__/
+*.pyc
+
+# Database
+data/stocks.db
+
+# Temp files
+tmp/prices.json
+tmp/config.json
+
+# VS Code
+.vscode/
+
+# GitHub copilot
+.github/
