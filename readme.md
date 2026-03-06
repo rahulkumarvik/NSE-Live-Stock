@@ -41,10 +41,7 @@ A live NSE stock price tracker for Ubuntu desktop.
 
 ## Setup
 ```bash
-pip3 install yfinanc![Uploading 8b417e50-4f73-446f-abc3-3dcf2ac9288d.jpeg…]()
-e pytz
-sudo apt install conky-all python3-tk
-```
+
 
 ### Run tkinter widget
 ```bash
@@ -71,3 +68,5 @@ stockengine/
 ```
 
 
+
+![Uploading 8b417e50-4f73-446f-abc3-3dcf2ac9288d.jpeg…]()
