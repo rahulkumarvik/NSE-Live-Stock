@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+
+  price-engine:
+    build: .
+    container_name: nse_price_engine
+    restart: unless-stopped
+    volumes:
+      - ./tmp:/app/tmp
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PRICES_FILE=/app/tmp/prices.json
+      - DB_FILE=/app/data/stocks.db
+    networks:
+      - nse-network
+
+networks:
+  nse-network:
+    driver: bridge
